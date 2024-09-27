@@ -5,13 +5,13 @@ These tests were designed to test a low level of threat, then a medium or arbitr
 These can be run via:
 
 ## Invoke threat level 1 testing
-`Invoke-AtomicRunner -listOfAtomics .\Threat1.csv -PauseBetweenAtomics 5`
+`Invoke-AtomicRunner -listOfAtomics .\Threat1.csv -PauseBetweenAtomics 5 -ExecutionLogPath 'ART-log-Threat1.csv'`
 
 ## Invoke threat level 2 testing
-`Invoke-AtomicRunner -listOfAtomics .\Threat2.csv -PauseBetweenAtomics 5`
+`Invoke-AtomicRunner -listOfAtomics .\Threat2.csv -PauseBetweenAtomics 5 -ExecutionLogPath 'ART-log-Threat1.csv'`
 
 ## Invoke threat level 3 testing
-`Invoke-AtomicRunner -listOfAtomics .\Threat3.csv -PauseBetweenAtomics 5`
+`Invoke-AtomicRunner -listOfAtomics .\Threat3.csv -PauseBetweenAtomics 5 -ExecutionLogPath 'ART-log-Threat1.csv'`
 
 
 Todo: Create Threat levels 1-5 for more granular levels of testing.
